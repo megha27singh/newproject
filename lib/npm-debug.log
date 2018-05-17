@@ -1,0 +1,401 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bluebird
+20 silly mapToRegistry name bluebird
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/bluebird
+24 silly fetchNamedPackageData config
+25 silly mapToRegistry name config
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/config
+29 silly fetchNamedPackageData fetch-retry
+30 silly mapToRegistry name fetch-retry
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/fetch-retry
+34 silly fetchNamedPackageData json-socket
+35 silly mapToRegistry name json-socket
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/json-socket
+39 silly fetchNamedPackageData lodash
+40 silly mapToRegistry name lodash
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/lodash
+44 silly fetchNamedPackageData log4js
+45 silly mapToRegistry name log4js
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/log4js
+49 silly fetchNamedPackageData log4js-syslog-appender
+50 silly mapToRegistry name log4js-syslog-appender
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/log4js-syslog-appender
+54 silly fetchNamedPackageData node-fetch
+55 silly mapToRegistry name node-fetch
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/node-fetch
+59 silly fetchNamedPackageData node-schedule
+60 silly mapToRegistry name node-schedule
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/node-schedule
+64 silly fetchNamedPackageData ocsp
+65 silly mapToRegistry name ocsp
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/ocsp
+69 silly fetchNamedPackageData request
+70 silly mapToRegistry name request
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/request
+74 silly fetchNamedPackageData retry
+75 silly mapToRegistry name retry
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/retry
+79 silly fetchNamedPackageData uuid
+80 silly mapToRegistry name uuid
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/uuid
+84 verbose request uri https://registry.npmjs.org/bluebird
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 5:41:04 PM
+87 verbose request id 01372694806420cd
+88 http request GET https://registry.npmjs.org/bluebird
+89 verbose request uri https://registry.npmjs.org/config
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 5:41:04 PM
+92 http request GET https://registry.npmjs.org/config
+93 verbose request uri https://registry.npmjs.org/fetch-retry
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 5:41:04 PM
+96 http request GET https://registry.npmjs.org/fetch-retry
+97 verbose request uri https://registry.npmjs.org/json-socket
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 5:41:04 PM
+100 http request GET https://registry.npmjs.org/json-socket
+101 verbose request uri https://registry.npmjs.org/lodash
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 5:41:04 PM
+104 http request GET https://registry.npmjs.org/lodash
+105 verbose request uri https://registry.npmjs.org/log4js
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 5:41:04 PM
+108 http request GET https://registry.npmjs.org/log4js
+109 verbose request uri https://registry.npmjs.org/log4js-syslog-appender
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 5:41:04 PM
+112 http request GET https://registry.npmjs.org/log4js-syslog-appender
+113 verbose request uri https://registry.npmjs.org/node-fetch
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 5:41:04 PM
+116 http request GET https://registry.npmjs.org/node-fetch
+117 verbose request uri https://registry.npmjs.org/node-schedule
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 5:41:04 PM
+120 http request GET https://registry.npmjs.org/node-schedule
+121 verbose request uri https://registry.npmjs.org/ocsp
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 5:41:04 PM
+124 http request GET https://registry.npmjs.org/ocsp
+125 verbose request uri https://registry.npmjs.org/request
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 5:41:04 PM
+128 http request GET https://registry.npmjs.org/request
+129 verbose request uri https://registry.npmjs.org/retry
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 5:41:04 PM
+132 http request GET https://registry.npmjs.org/retry
+133 verbose request uri https://registry.npmjs.org/uuid
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 5:41:04 PM
+136 http request GET https://registry.npmjs.org/uuid
+137 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+138 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+139 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+140 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+141 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+142 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+143 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+144 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+145 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+146 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+147 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+148 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+149 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+150 info attempt registry request try #2 at 5:41:58 PM
+151 http request GET https://registry.npmjs.org/bluebird
+152 info attempt registry request try #2 at 5:41:58 PM
+153 http request GET https://registry.npmjs.org/json-socket
+154 info attempt registry request try #2 at 5:41:58 PM
+155 http request GET https://registry.npmjs.org/log4js-syslog-appender
+156 info attempt registry request try #2 at 5:41:58 PM
+157 http request GET https://registry.npmjs.org/lodash
+158 info attempt registry request try #2 at 5:41:58 PM
+159 http request GET https://registry.npmjs.org/node-fetch
+160 info attempt registry request try #2 at 5:41:58 PM
+161 http request GET https://registry.npmjs.org/node-schedule
+162 info attempt registry request try #2 at 5:41:58 PM
+163 http request GET https://registry.npmjs.org/request
+164 info attempt registry request try #2 at 5:41:58 PM
+165 http request GET https://registry.npmjs.org/ocsp
+166 info attempt registry request try #2 at 5:41:58 PM
+167 http request GET https://registry.npmjs.org/config
+168 info attempt registry request try #2 at 5:41:58 PM
+169 http request GET https://registry.npmjs.org/fetch-retry
+170 info attempt registry request try #2 at 5:41:58 PM
+171 http request GET https://registry.npmjs.org/log4js
+172 info attempt registry request try #2 at 5:41:58 PM
+173 http request GET https://registry.npmjs.org/uuid
+174 info attempt registry request try #2 at 5:41:58 PM
+175 http request GET https://registry.npmjs.org/retry
+176 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+177 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+178 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+179 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+180 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+181 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+182 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+183 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+184 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+185 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+186 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+187 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+188 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=read ECONNRESET
+189 info attempt registry request try #3 at 5:43:41 PM
+190 http request GET https://registry.npmjs.org/bluebird
+191 info attempt registry request try #3 at 5:43:42 PM
+192 http request GET https://registry.npmjs.org/log4js-syslog-appender
+193 info attempt registry request try #3 at 5:43:42 PM
+194 http request GET https://registry.npmjs.org/node-fetch
+195 info attempt registry request try #3 at 5:43:42 PM
+196 http request GET https://registry.npmjs.org/request
+197 info attempt registry request try #3 at 5:43:42 PM
+198 http request GET https://registry.npmjs.org/node-schedule
+199 info attempt registry request try #3 at 5:43:42 PM
+200 http request GET https://registry.npmjs.org/config
+201 info attempt registry request try #3 at 5:43:42 PM
+202 http request GET https://registry.npmjs.org/log4js
+203 info attempt registry request try #3 at 5:43:42 PM
+204 http request GET https://registry.npmjs.org/retry
+205 info attempt registry request try #3 at 5:43:42 PM
+206 http request GET https://registry.npmjs.org/json-socket
+207 info attempt registry request try #3 at 5:43:42 PM
+208 http request GET https://registry.npmjs.org/uuid
+209 info attempt registry request try #3 at 5:43:42 PM
+210 http request GET https://registry.npmjs.org/fetch-retry
+211 info attempt registry request try #3 at 5:43:42 PM
+212 http request GET https://registry.npmjs.org/ocsp
+213 info attempt registry request try #3 at 5:43:42 PM
+214 http request GET https://registry.npmjs.org/lodash
+215 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+215 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+215 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+215 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+215 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+215 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+215 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+215 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+215 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+215 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+215 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+215 silly fetchPackageMetaData  error for bluebird@^3.5.0 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+216 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+216 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+216 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+216 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+216 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+216 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+216 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+216 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+216 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+216 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+216 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+216 silly fetchPackageMetaData  error for log4js-syslog-appender@^0.3.1 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+217 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+217 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+217 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+217 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+217 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+217 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+217 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+217 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+217 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+217 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+217 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+217 silly fetchPackageMetaData  error for request@^2.81.0 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+218 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+218 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+218 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+218 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+218 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+218 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+218 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+218 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+218 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+218 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+218 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+218 silly fetchPackageMetaData  error for node-schedule@^1.2.5 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+219 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+219 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+219 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+219 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+219 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+219 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+219 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+219 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+219 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+219 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+219 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+219 silly fetchPackageMetaData  error for log4js@^2.3.3 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+220 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+220 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+220 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+220 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+220 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+220 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+220 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+220 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+220 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+220 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+220 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+220 silly fetchPackageMetaData  error for retry@^0.10.1 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+221 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+221 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+221 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+221 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+221 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+221 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+221 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+221 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+221 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+221 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+221 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+221 silly fetchPackageMetaData  error for node-fetch@^1.7.2 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+222 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+222 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+222 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+222 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+222 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+222 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+222 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+222 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+222 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+222 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+222 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+222 silly fetchPackageMetaData  error for config@^1.26.1 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+223 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+223 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+223 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+223 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+223 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+223 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+223 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+223 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+223 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+223 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+223 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+223 silly fetchPackageMetaData  error for fetch-retry@^1.1.1 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+224 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+224 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+224 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+224 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+224 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+224 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+224 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+224 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+224 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+224 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+224 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+224 silly fetchPackageMetaData  error for json-socket@^0.2.1 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+225 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+225 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+225 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+225 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+225 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+225 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+225 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+225 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+225 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+225 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+225 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+225 silly fetchPackageMetaData  error for uuid@^3.0.1 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+226 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+226 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+226 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+226 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+226 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+226 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+226 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+226 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+226 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+226 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+226 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+226 silly fetchPackageMetaData  error for ocsp@^1.2.0 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+227 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=read ECONNRESET
+227 silly fetchPackageMetaData     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+227 silly fetchPackageMetaData     at ClientRequest.g (events.js:260:16)
+227 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+227 silly fetchPackageMetaData     at ClientRequest.emit (events.js:169:7)
+227 silly fetchPackageMetaData     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+227 silly fetchPackageMetaData     at emitOne (events.js:77:13)
+227 silly fetchPackageMetaData     at TLSSocket.emit (events.js:169:7)
+227 silly fetchPackageMetaData     at emitErrorNT (net.js:1256:8)
+227 silly fetchPackageMetaData     at nextTickCallbackWith2Args (node.js:441:9)
+227 silly fetchPackageMetaData     at process._tickCallback (node.js:355:17)
+227 silly fetchPackageMetaData  error for lodash@^4.17.4 { [Error: tunneling socket could not be established, cause=read ECONNRESET] code: 'ECONNRESET' }
+228 silly rollbackFailedOptional Starting
+229 silly rollbackFailedOptional Finishing
+230 silly runTopLevelLifecycles Starting
+231 silly runTopLevelLifecycles Finishing
+232 silly install printInstalled
+233 verbose stack Error: tunneling socket could not be established, cause=read ECONNRESET
+233 verbose stack     at ClientRequest.onError (/usr/share/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+233 verbose stack     at ClientRequest.g (events.js:260:16)
+233 verbose stack     at emitOne (events.js:77:13)
+233 verbose stack     at ClientRequest.emit (events.js:169:7)
+233 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:258:9)
+233 verbose stack     at emitOne (events.js:77:13)
+233 verbose stack     at TLSSocket.emit (events.js:169:7)
+233 verbose stack     at emitErrorNT (net.js:1256:8)
+233 verbose stack     at nextTickCallbackWith2Args (node.js:441:9)
+233 verbose stack     at process._tickCallback (node.js:355:17)
+234 verbose cwd /home/megha/Downloads/lib
+235 error Linux 4.8.0-36-generic
+236 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+237 error node v4.2.6
+238 error npm  v3.5.2
+239 error code ECONNRESET
+240 error network tunneling socket could not be established, cause=read ECONNRESET
+241 error network This is most likely not a problem with npm itself
+241 error network and is related to network connectivity.
+241 error network In most cases you are behind a proxy or have bad network settings.
+241 error network
+241 error network If you are behind a proxy, please make sure that the
+241 error network 'proxy' config is set properly.  See: 'npm help config'
+242 verbose exit [ 1, true ]
